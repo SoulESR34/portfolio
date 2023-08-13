@@ -1,0 +1,25 @@
+.list__skills{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+
+    .element{
+        width: 150px;
+        height: 150px;
+        background-color: $color-blue-fill-card;
+        border: 1px solid $color-blue-stoke-card;
+        border-radius: 8px;
+    }
+
+    .element:hover, 
+    .element:hover > h4{
+        background-color: white;
+        color: black;
+    }
+
+    .icon__tecnology{
+        margin: 0 auto;
+        margin-top: 53px;
+    }
+}

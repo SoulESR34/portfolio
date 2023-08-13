@@ -1,0 +1,42 @@
+header{
+    padding: 20px;
+}
+
+.header-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+}
+
+.elements{
+    background-color: $color-blue_header;
+    border-radius: 8px;
+    width: 1180px;
+
+    display: flex;
+
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+
+    .nav__bar{
+        display: flex;
+        gap: 90px;
+    }
+}
+
+.link__document a{
+    text-decoration: none;
+    position: relative;
+}
+
+.link__document a:hover::before{
+    position: absolute;
+    content: ' ';
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: $color-purple-logo;
+}

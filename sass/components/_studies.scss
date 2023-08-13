@@ -1,0 +1,23 @@
+.list__studies{
+    text-align: left;
+}
+
+.career{
+    margin-top: 20px;
+    position: relative;
+}
+
+.career:hover,
+.career:hover > h3{
+    color: $color-purple-logo;
+}
+
+.career::before{
+    width: 4px;
+    height: 84px;
+    background-color: $color-gray-deraction-career ;
+
+    content: '';
+    position: absolute;
+    left: -15px;
+}
