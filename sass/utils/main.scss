@@ -16,7 +16,7 @@
 }
 
 .backgound{
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     background-image: linear-gradient(to top, $color-black 40%, $color-blue_background);
     position: fixed;
@@ -68,3 +68,4 @@ section{
     margin: 0 auto;
     text-align: center;
 }
+
