@@ -13,3 +13,11 @@ footer{
     justify-content: center;
     gap: 15px;
 }
+
+@media(max-width: 850px) {
+    .footer-container{
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px;
+    }
+}
